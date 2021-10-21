@@ -12,6 +12,7 @@ function RandomNum(min, max){return Math.floor(Math.random() * (max - min)) + mi
 
 Cookie Clicker
 Self expanitory, you can exit anytime but it wont save.
+
 function clicker(){if(window.confirm('Cookies: '+Cookies)){Cookies++;clicker()}else{alert('See you soon! Your cookies: '+Cookies)}};let Cookies=(0);alert('Nice to see you again! Space bar or OK to cook! Cancel or ESC to leave!');clicker()
 
 # More soon!
